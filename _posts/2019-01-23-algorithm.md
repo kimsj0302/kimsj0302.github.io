@@ -6,7 +6,7 @@ categories: study
 tags: [ML, jekyll]
 ---
 
-위에 아무거나 써보면 접히려나?.
+위에 아무거나 써보면 접히려나?
 
 <!-- more -->
 
