@@ -14,6 +14,12 @@ use_math: true
 1.3. [규칙 생성](#generate_rule)<br />
 1.4. [Code](#apriori_code)
 
+
+
+<!-- more -->
+
+
+
 # Apriori 알고리즘 <a class="apriori" id="apriori_algorithm"></a>
 
 https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/ 를 참고하여 다시 정리한 글임
@@ -31,7 +37,7 @@ https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/ 를 참고하여
 
 <br />
 
-<!-- more -->
+
 
 ### 규칙과 규칙의 효용성 <a class="apriori" id="rule"></a>
 ***
