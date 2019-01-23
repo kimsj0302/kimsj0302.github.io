@@ -6,6 +6,13 @@ categories: study
 tags: [ML, jekyll]
 use_math: true
 ---
+
+
+
+위에 아무거나 써보면 접히려나?
+
+
+
 # 목차
 
 1.  [Apriori 알고리즘](#apriori_algorithm)<br />
