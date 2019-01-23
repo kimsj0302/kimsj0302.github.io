@@ -6,22 +6,15 @@ categories: study
 tags: [ML, Recommender system]
 use_math: true
 ---
-# 목차
 
-1.  [Apriori 알고리즘](#apriori_algorithm)<br />
-1.1.  [개요](#summary)<br />
-1.2. [규칙과 규칙의 효용성](#rule)<br />
-1.3. [규칙 생성](#generate_rule)<br />
-1.4. [Code](#apriori_code)
-
-# Apriori 알고리즘 <a class="apriori" id="apriori_algorithm"></a>
+# Apriori 알고리즘
 
 https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/ 를 참고하여 다시 정리한 글임
 
 <br />
 
 
-### 개요 <a class="apriori" id="summary"></a>
+### 개요
 ***
 
  데이터들에 대한 발생 빈도를 기반으로 각 데이터 간의 연관관계를 밝히기 위한 방법이다. 구현이 간단하며 성능 또한 좋다. 패턴 분석에 많이 사용된다. contents-based recommendation의 기본이다.
@@ -31,7 +24,7 @@ https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/ 를 참고하여
 
 <br />
 
-### 규칙과 규칙의 효용성 <a class="apriori" id="rule"></a>
+### 규칙과 규칙의 효용성
 ***
  우리는 조건절과 결과절에 아이템을 집어 넣어 규칙을 만들 수 있다. 'A를 사는 사람은 B도 산다'와 같이 말이다. 그렇다면 이를 이제 어떻게 평가해야 할까? 규칙이 좋은지 나타내는 지표는 **지지도(support)**와 **신뢰도(confidence)**,**향상도(lift)** 가 있습니다. 
 \begin{align}
@@ -60,7 +53,7 @@ lift(A \to B)= \frac{P(A|B)}{P(A) \cdot P(B)}
 
 <br />
 
-### 규칙 생성 <a class="apriori" id="generate_rule"></a>
+### 규칙 생성
 ***
 아이템이 $n$개 일때 탐색을 해야하는 모든 경우의 수는 $n(n-1)$이다. **빈발 집합(frequent itemset)** 이란 정해진 최소 지지도 이상을 자기는 항목집합을 말한다. 우리가 원하는 것은 빈발 집합이기 때문에 이를 효율적으로 구하기 위해 Apriori algorithm을 사용한다. 
 
@@ -69,7 +62,7 @@ lift(A \to B)= \frac{P(A|B)}{P(A) \cdot P(B)}
 
 <br />
 
-#### Sample Code<a class="apriori" id="apriori_code"></a>
+#### Sample Code
 ***
  **https://github.com/jjkyun/DataMining/tree/master/apriori**
  
