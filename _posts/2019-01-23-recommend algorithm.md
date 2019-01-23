@@ -9,7 +9,7 @@ use_math: true
 
 # Apriori 알고리즘
 
-https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/ 를 참고하여 다시 정리한 글임
+<link src="https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/"> 를 참고하여 다시 정리한 글임
 
 <br />
 
@@ -81,7 +81,7 @@ Apriori 알고리즘은 느리다.
 
 ### step 1 : FP-tree 구성
 ***
-https://chih-ling-hsu.github.io/2017/03/25/frequent-itemset-generation-using-fp-growth#mining-tree
+<link src="https://chih-ling-hsu.github.io/2017/03/25/frequent-itemset-generation-using-fp-growth#mining-tree">
 <img src="https://i.imgur.com/nty7dVx.png">
 
 #### Make Transaction Database
