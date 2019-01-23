@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "알고리즘 정리"
 date: 2019-01-23
 categories: 
