@@ -1,8 +1,8 @@
 ---
 layout: layout
 ---
-{% if page.use_math %}
-  {% include mathjax_support %} 
-{% endif %}
 {% assign __ = site.data.languages[site.language] %}
 {% include post.html %}
+<script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
