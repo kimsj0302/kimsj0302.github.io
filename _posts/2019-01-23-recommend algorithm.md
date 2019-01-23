@@ -3,7 +3,7 @@ layout: post
 title: "알고리즘 정리"
 date: 2019-01-23
 categories: study
-tags: [ML, jekyll]
+tags: [ML, Recommender system]
 use_math: true
 ---
 # 목차
