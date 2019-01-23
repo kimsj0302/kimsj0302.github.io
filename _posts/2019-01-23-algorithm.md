@@ -5,7 +5,8 @@ categories:
 - study
 tags: [ML, jekyll]
 ---
-위에 아무거나 써보면 접히려나
+
+ 이글은 https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/ 를 참고하여 다시 정리한 글임
 
 <!-- more -->
 
