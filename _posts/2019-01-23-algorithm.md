@@ -7,7 +7,7 @@ tags: [ML, jekyll]
 use_math: true
 ---
 
-위에 아무거나 써보면 접히려나?
+위에 아무거나 써보면 접히려나?.
 
 <!-- more -->
 
