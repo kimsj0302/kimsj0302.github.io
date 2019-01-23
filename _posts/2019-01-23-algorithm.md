@@ -1,11 +1,10 @@
 ---
 title: "알고리즘 정리"
-date: 2019-01-23
+date: 2019-01-23 12:00:00
 categories: 
 - study
 tags: [ML, jekyll]
 ---
-
 위에 아무거나 써보면 접히려나
 
 <!-- more -->
