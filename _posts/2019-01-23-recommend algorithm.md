@@ -9,7 +9,7 @@ use_math: true
 
 # Apriori 알고리즘
 
-https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/ 를 참고하여 다시 정리한 글임
+[https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/](https://ratsgo.github.io/machine%20learning/2017/04/08/apriori/) 를 참고하여 다시 정리한 글임
 
 <br />
 
@@ -62,9 +62,8 @@ lift(A \to B)= \frac{P(A|B)}{P(A) \cdot P(B)}
 
 <br />
 
-#### Sample Code
-***
- **https://github.com/jjkyun/DataMining/tree/master/apriori**
+#### [Sample Code](https://github.com/jjkyun/DataMining/tree/master/apriori)
+ 
  
 ### 문제점
 
@@ -81,7 +80,7 @@ Apriori 알고리즘은 느리다.
 
 ### step 1 : FP-tree 구성
 ***
-https://chih-ling-hsu.github.io/2017/03/25/frequent-itemset-generation-using-fp-growth#mining-tree
+[참고](https://chih-ling-hsu.github.io/2017/03/25/frequent-itemset-generation-using-fp-growth#mining-tree)
 <img src="https://i.imgur.com/nty7dVx.png">
 
 #### Make Transaction Database
