@@ -73,12 +73,12 @@ lift(A \to B)= \frac{P(A|B)}{P(A) \cdot P(B)}
 ***
  **https://github.com/jjkyun/DataMining/tree/master/apriori**
  
- ### 문제점
+### 문제점
  
- ***
+***
  
- Apriori 알고리즘은 느리다.
- 때문에 이를 보안하기 위한 3가지 방법이 있다.
+Apriori 알고리즘은 느리다.
+때문에 이를 보안하기 위한 3가지 방법이 있다.
  
 
 # Frequent Patterns Growth (FP-Growth) 알고리즘
