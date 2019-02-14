@@ -4,8 +4,8 @@
 # ---------------------------------------------------------------
 
 # Site
-title: HonzaNolgi
-subtitle:
+title: SuC++
+subtitle: 혼자 놀기 위한 공부
 description:
 author: 김승진
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -215,8 +215,6 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/kimsj0302
-
-
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -380,8 +378,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: ture
+  shortname: kimsj0302
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
