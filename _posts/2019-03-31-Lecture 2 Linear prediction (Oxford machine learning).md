@@ -133,6 +133,9 @@ $$
 \theta =(X^TX)^{-1}y^TX
 $$
 
-# [Course Link](<https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/>)
+---
+
+[Course Link](<https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/>)
 
 이 글은 Oxford machine learning을 듣고 요약한 글 입니다. 
+
