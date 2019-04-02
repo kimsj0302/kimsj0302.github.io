@@ -323,7 +323,7 @@ For independent and identically distributed (i.i.d.) data from $$p(x \mid\theta_
 
 $$
 \begin{aligned}
-\hat{\theta} &= arg\ \underset{\theta}{max}\prod_{i=1}^N p(x_i|\theta) \\&= arg\ \underset{\theta}{max} \sum_{i=1}^N log\ p(x_i|\theta) \\&= arg\ \underset{\theta}{max}\left(\frac{1}{N}\sum_{i=1}^N log\ p(x_i|\theta)-\frac{1}{N}\sum_{i=1}^N log\ p(x_i|\theta_0)\right)\\&=arg\ \underset{\theta}{max}\frac{1}{N}\sum_{i=1}^Nlog\frac{p(x_i|\theta)}{p(x_i|\theta_0)} \\ &\overset{N \rightarrow \infin}{\rightarrow}
+\hat{\theta} &= arg\ \underset{\theta}{max}\prod_{i=1}^N p(x_i|\theta) \\&= arg\ \underset{\theta}{max} \sum_{i=1}^N log\ p(x_i|\theta) \\&= arg\ \underset{\theta}{max}\left(\frac{1}{N}\sum_{i=1}^N log\ p(x_i|\theta)-\frac{1}{N}\sum_{i=1}^N log\ p(x_i|\theta_0)\right)\\&=arg\ \underset{\theta}{max}\frac{1}{N}\sum_{i=1}^Nlog\frac{p(x_i|\theta)}{p(x_i|\theta_0)} \\ &\overset{N \rightarrow \infty}{\rightarrow}
 arg\ \underset{\theta}{min}\int log\frac{p(x_i|\theta)}{p(x|\theta_0)}p(x|\theta_0)dx
 \\&= arg\ \underset{\theta}{min}\int p(x|\theta_0)log\ p(x|\theta_0)dx - \int p(x|\theta_0)log\ p(x|\theta)dx
 \end{aligned}
